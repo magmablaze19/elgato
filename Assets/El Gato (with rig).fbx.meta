@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: 42435281170aa9b4db83f5ebb31e5239
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: -989820356498121537
+    second: El Gato Skeleton|Armature.001|Armature|Armature.001|Armature|ArmatureAction.001|
+  - first:
+      74: 5213966716611266253
+    second: El Gato Skeleton|Armature.001|Armature|ArmatureAction.001|Armature|ArmatureA
+  - first:
+      74: 2485115962001612515
+    second: El Gato Skeleton|Armature.001|Armature|ArmatureAction.001|Armature|ArmatureActio
+  - first:
+      74: 1514917509445837197
+    second: El Gato Skeleton|El Gato Skeleton.001|El Gato Skeleton|Armature.001|Armature
+  - first:
+      74: -3990872771918509978
+    second: El Gato Skeleton|El Gato Skeleton.001|El Gato Skeleton|Armature.001|Armature.001
+  - first:
+      74: -6681868503216450128
+    second: El Gato Skeleton|El Gato Skeleton.001|El Gato Skeleton|Armature.001|Armature.002
+  - first:
+      74: 7194697116798342035
+    second: El Gato Skeleton|El Gato Skeleton.001|El Gato Skeleton|Armature.001|Armature.003
+  - first:
+      74: 3712333439179319326
+    second: El Gato Skeleton|El Gato Skeleton.001|El Gato Skeleton|Armature.001|Armature.004
+  - first:
+      74: -9218270266315835097
+    second: El Gato Skeleton|El Gato Skeleton.001|El Gato Skeleton|Armature.001|Armature|Arm
+  - first:
+      74: 6053713573878415083
+    second: El Gato Skeleton|El Gato SkeletonAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftFoot' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: El Gato (with rig)(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: El Gato (with rig)(Clone)
+      position: {x: -0, y: 1.3362876, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: El Gato Skeleton
+      parentName: El Gato (with rig)(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bone
+      parentName: El Gato Skeleton
+      position: {x: -0, y: 0, z: 0.013779122}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chest
+      parentName: Bone
+      position: {x: -0, y: 0.0102175735, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bicep.l
+      parentName: chest
+      position: {x: -0.007520091, y: 0.0051130294, z: -6.858411e-10}
+      rotation: {x: -0.000000008121886, y: -0.000000044999272, z: 0.9110736, w: 0.41224366}
+      scale: {x: 1, y: 1, z: 1}
+    - name: forearm.l
+      parentName: bicep.l
+      position: {x: -0.0000000017881392, y: 0.0061614877, z: 4.2632563e-16}
+      rotation: {x: -0.000000012456834, y: 0.00000010522919, z: 0.0676655, w: 0.9977081}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: forearm.l_end
+      parentName: forearm.l
+      position: {x: -0, y: 0.006500784, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bicep.r
+      parentName: chest
+      position: {x: 0.007520091, y: 0.0051130294, z: -6.858411e-10}
+      rotation: {x: 0.000000008121886, y: -0.000000044999272, z: 0.9110736, w: -0.41224366}
+      scale: {x: 1, y: 1, z: 1}
+    - name: forearm.r
+      parentName: bicep.r
+      position: {x: 0.0000000017881392, y: 0.0061614877, z: 4.2632563e-16}
+      rotation: {x: -0.000000012456834, y: -0.00000010522919, z: -0.0676655, w: 0.9977081}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: forearm.r_end
+      parentName: forearm.r
+      position: {x: -0, y: 0.006500784, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: chest
+      position: {x: -0, y: 0.010217575, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.l
+      parentName: head
+      position: {x: -0.0073301876, y: 0.016662693, z: -1.1368684e-15}
+      rotation: {x: 0.000000043033943, y: 0.000000015826302, z: 0.31438872, w: 0.9492944}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1}
+    - name: ear.l
+      parentName: ear.l
+      position: {x: 0.00004775107, y: 0.0066850474, z: 0.0000000067144974}
+      rotation: {x: -0.000000037470684, y: -0.000000034089055, z: -0.121923104, w: 0.9925396}
+      scale: {x: 0.54341877, y: 0.5434189, z: 0.5434188}
+    - name: ear.l_end
+      parentName: ear.l
+      position: {x: -0, y: 0.009798977, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.r
+      parentName: head
+      position: {x: 0.0073301876, y: 0.016662693, z: -1.1368684e-15}
+      rotation: {x: 0.000000043033943, y: -0.000000015826302, z: -0.31438872, w: 0.9492944}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1}
+    - name: ear.r
+      parentName: ear.r
+      position: {x: -0.000047750473, y: 0.006685055, z: 0.000000006714498}
+      rotation: {x: -0.000000016678468, y: 0.000000006964001, z: 0.49462044, w: 0.8691091}
+      scale: {x: 0.5434188, y: 0.5434188, z: 0.5434188}
+    - name: ear.r_end
+      parentName: ear.r
+      position: {x: -0, y: 0.009798977, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: head
+      position: {x: -0, y: 0.008368501, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh.l
+      parentName: Bone
+      position: {x: -0.005496502, y: -0.00025157927, z: -1.4210854e-16}
+      rotation: {x: 0.9992562, y: -0.03856234, z: -0.00000018429259, w: -0.0000002736264}
+      scale: {x: 1.0000088, y: 0.9999996, z: 1}
+    - name: calf.l
+      parentName: thigh.l
+      position: {x: -2.2351616e-10, y: 0.006209551, z: -2.842171e-16}
+      rotation: {x: -0.000000006097145, y: 0.00000005991187, z: -0.018504482, w: 0.9998288}
+      scale: {x: 0.9999998, y: 0.9999995, z: 1}
+    - name: calf.l_end
+      parentName: calf.l
+      position: {x: -0, y: 0.007838142, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh.r
+      parentName: Bone
+      position: {x: 0.005496502, y: -0.00025157927, z: -1.4210854e-16}
+      rotation: {x: 0.9992562, y: 0.03856234, z: 0.00000018429259, w: -0.0000002736264}
+      scale: {x: 1.0000088, y: 0.9999996, z: 1}
+    - name: calf.r
+      parentName: thigh.r
+      position: {x: 2.2351616e-10, y: 0.006209551, z: -2.842171e-16}
+      rotation: {x: -0.000000006097145, y: -0.00000005991187, z: 0.018504482, w: 0.9998288}
+      scale: {x: 0.9999998, y: 0.9999995, z: 1}
+    - name: calf.r_end
+      parentName: calf.r
+      position: {x: -0, y: 0.007838142, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Body
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
